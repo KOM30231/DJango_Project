@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Supermarket Product Management System</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            background:white;
+            width:500px;
+            padding:30px;
+            text-align:center;
+            border-radius:10px;
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#2c3e50;
+            margin-bottom:20px;
+        }
+
+        p{
+            color:#555;
+            margin-bottom:25px;
+            line-height:1.5;
+        }
+
+        .btn{
+            display:inline-block;
+            text-decoration:none;
+            padding:12px 25px;
+            margin:10px;
+            color:white;
+            border-radius:5px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .add{
+            background:#28a745;
+        }
+
+        .add:hover{
+            background:#218838;
+        }
+
+        .view{
+            background:#007bff;
+        }
+
+        .view:hover{
+            background:#0056b3;
+        }
+
+        footer{
+            margin-top:30px;
+            color:#666;
+            font-size:14px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Supermarket Product Management System</h1>
+
+    <p>
+        Welcome to the Supermarket Product Management System.
+        This application helps you add, manage, and view supermarket products quickly and efficiently.
+    </p>
+
+    <a href="addproduct" class="btn add">Add Product</a>
+    <a href="viewproducts" class="btn view">View Products</a>
+
+    <footer>
+        ABC Supermarket @ 2026
+    </footer>
+
+</div>
+
+</body>
+</html>

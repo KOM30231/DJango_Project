@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book details</title>
+    </head>
+    <body>
+        <h1>Adding Products</h1>
+        <h3>Add product details to the following fields</h3>
+        <form method="post">
+            {% csrf_token %}
+            <label for="product_name">Product Name:</label>
+            <input type="text" id="product_name" name="product_name" required><br><br>
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required><br><br>
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" required><br><br>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" required><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
